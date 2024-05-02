@@ -85,13 +85,13 @@ export default class MultipleItems extends Component {
             <div className='text-center'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <div className="py-14">
-                        <Slider {...settings}>
+                        {/* <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
                                     <Image src={item.imgSrc} alt={item.imgSrc} width={150} height={150} />
                                 </div>
                             )}
-                        </Slider>
+                        </Slider> */}
                     </div>
                     <hr />
                 </div>
